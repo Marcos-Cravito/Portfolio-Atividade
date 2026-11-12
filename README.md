@@ -17,4 +17,4 @@ O menu leva às seções Perfil, Projetos e Contato. Os projetos apresentados s�
 
 Para abrir o projeto localmente, extraia o ZIP e abra `index.html` no navegador. O Bootstrap é carregado pela internet.
 
-Acesso ao portifólio pelo GitHub Pages: https://github.com/Marcos-Cravito/Portfolio-Atividade
+Acesso ao portifólio pelo GitHub Pages: https://marcos-cravito.github.io/Portfolio-Atividade/
