@@ -6,10 +6,10 @@ Portfólio de estudante do curso técnico em Desenvolvimento de Sistemas. O site
 
 ## Tecnologias
 
-- **HTML** — estrutura das páginas e dos links.
-- **CSS** — cores, cartões e rolagem suave.
-- **Bootstrap 5.3.3** — grade responsiva e espaçamentos.
-- **JavaScript** — exibição do botão de voltar ao topo e atualização do ano no rodapé.
+- **HTML** - estrutura das páginas e dos links.
+- **CSS** - cores, cartões e rolagem suave.
+- **Bootstrap 5.3.3** - grade responsiva e espaçamentos.
+- **JavaScript** - exibição do botão de voltar ao topo e atualização do ano no rodapé.
 
 ## Funcionamento
 

@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #101114;
+  color: #f7f7f8;
+  font-family: Arial, sans-serif;
+}
+
+p,
+li {
+  color: #c3c4c9;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.destaque {
+  color: #ff4258;
+}
+
+.cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #101114;
+  border-bottom: 1px solid #363940;
+}
+
+.menu,
+.links-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.menu {
+  justify-content: space-between;
+  padding-block: 16px;
+}
+
+.menu a {
+  color: #f7f7f8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.marca {
+  font-size: 1.2rem;
+}
+
+.secao {
+  padding-block: 64px;
+  scroll-margin-top: 110px;
+}
+
+.secao-projetos {
+  background: #191b20;
+}
+
+.painel {
+  padding: 24px;
+  background: #212329;
+  border: 1px solid #363940;
+  border-radius: 12px;
+}
+
+.cartao-projeto {
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.cartao-projeto:hover {
+  transform: translateY(-4px);
+  border-color: #ff4258;
+}
+
+.tecnologia {
+  color: #ff4258;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.painel-contato {
+  border-left: 4px solid #ff4258;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #c80a22;
+  border: 1px solid #c80a22;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background: #a7081c;
+  color: white;
+}
+
+.botao-contorno {
+  background: transparent;
+  border-color: #85868d;
+}
+
+.botao-topo {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 20;
+}
+
+.botao-topo[hidden] {
+  display: none;
+}
+
+.rodape {
+  padding-block: 24px;
+  background: #0b0c0e;
+  border-top: 1px solid #363940;
+  color: #c3c4c9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .cartao-projeto {
+    transition: none;
+  }
+
+  .cartao-projeto:hover {
+    transform: none;
+  }
+}
+
