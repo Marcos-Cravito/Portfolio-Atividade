@@ -19,5 +19,5 @@ Para abrir o projeto localmente, extraia o ZIP e abra `index.html` no navegador.
 
 ## Botão de voltar ao topo
 
-O botão aparece no canto inferior direito quando a rolagem passa de 300 pixels. Em `script.js`, a função `atualizarBotaoTopo` verifica a posição da página e atualiza o atributo `hidden` do link. Ao clicar, o link `#inicio` leva ao topo. Em `style.css`, a propriedade `scroll-behavior` deixa a rolagem suave e respeita a preferência de movimento reduzido.
+O botão aparece no canto inferior direito. Em `script.js`, a função `atualizarBotaoTopo` verifica a posição da página e atualiza o atributo `hidden` do link. Ao clicar, o link `#inicio` leva ao topo. Em `style.css`, a propriedade `scroll-behavior` deixa a rolagem suave e respeita a preferência de movimento reduzido.
 
